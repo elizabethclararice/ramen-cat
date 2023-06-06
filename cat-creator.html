@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="ramen-cat.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+        <title>Cat Creator</title>
+    </head>
+    <body>
+        <header>
+            <img src="https://art.pixilart.com/b1184af970eebac.png">
+            <h1>Ramen Cat</h1>
+            <div id="the-cats-meow">ニャーニャー</div>
+        </header>
+
+        <nav>
+            <a href="file://wsl.localhost/Ubuntu/home/eliclara/appacad-projects/ramen-cat-website/homepage.html">home</a>
+            <a href="file://wsl.localhost/Ubuntu/home/eliclara/appacad-projects/ramen-cat-website/cat-creator.html">cat creator</a>
+            <a href="file://wsl.localhost/Ubuntu/home/eliclara/appacad-projects/ramen-cat-website/resources.html">resources</a>
+            <a href="file://wsl.localhost/Ubuntu/home/eliclara/appacad-projects/ramen-cat-website/ramen.html">ramen</a>
+        </nav>
+
+        <form>
+            <fieldset>
+                <legend>create your own ramen cat!</legend>
+                <div id="cat-creator">
+                    <div>
+                        <label for="catName">name your cat</label>
+                        <input type="text" id="catName" name="cat_name">
+                    </div>
+
+                    <div>
+                        <label for="catColor">choose a color for your cat</label>
+                        <input type="text" id="catColor" name="cat_color">
+                    </div>
+
+                    <div>
+                        <label for="furType">choose your cat's fur pattern<label>
+                        <select id="furType" name="fur_type">
+                            <option value="calico">calico</option>
+                            <option value="striped">striped</option>
+                            <option value="spotted">spotted</option>
+                        </select>
+                    </div>
+
+                    <div id="gender-checkbox">
+                        <label for="male">male</label>
+                        <input type="checkbox" id="male" name="male">
+                        <label for="female">female</label>
+                        <input type="checkbox" id="female" name="female">
+                    </div>
+
+                    <label for="catBio">write a brief bio about your cat:</label>
+                    <input type="textarea" id="catBio" name="cat_bio">
+
+                    <div>
+                        <label for="ramenType">choose your cat's favorite ramen</label>
+                            <select id="ramenType" name="ramen_type">
+                                <option value="miso">miso</option>
+                                <option value="tonkatsu">tonkatsu</option>
+                                <option value="tokyo">tokyo</option>
+                            </select>
+                    </div>
+                </div>
+
+                <div id="submit-button">
+                    <button type="submit">create cat!</button>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>

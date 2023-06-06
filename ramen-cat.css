@@ -1,0 +1,26 @@
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+#the-cats-meow {
+    font-family: 'Cherry Bomb One', cursive;
+    color: #423323;
+    font-size: 24px;
+}
+
+body {
+    background-color: #EEEBE6;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+nav {
+    background-color: white;
+}
