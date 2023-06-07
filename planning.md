@@ -3,7 +3,8 @@ GENERAL
 main font: Quicksand, in bold, semibold, and regular
 japanese accent font: Cherry Bomb One
 background color: #EEEBE6 (light brown)
-secondary color/text color: #423323 (nut brown)
+text color: black
+secondary color: #423323 (nut brown)
 accent color: #829E5B (cucumber green)
 
 LOGO
