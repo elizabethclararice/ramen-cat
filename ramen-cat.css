@@ -82,6 +82,14 @@ main {
     left: 160px;
     width: 900px;
 }
+#shop-image {
+    position: absolute;
+    height: 300px;
+    width: 575px;
+    right: 180px;
+    top: 235px;
+    border-radius: 30px;
+}
 #welcome-header {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -106,6 +114,42 @@ fieldset {
     font-size: 20px;
     font-weight: 650;
 }
+#meow-bubble {
+    position: absolute;
+    height: 80px;
+    width: 120px;
+    left: 570px;
+    top: 240px;
+    border-radius: 20px;
+}
 .generic-header {
     margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 28px;
+}
+#ramen-images {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+}
+.bowl {
+    height: 250px;
+    width: 250px;
+}
+.resource-link {
+    color: #64764B;
+    font-weight: 700;
+    border-bottom: 3px solid #BCC7AD;
+    text-decoration: none;
+}
+.resource-link:hover {
+    font-size: 18px;
+}
+#resource-links {
+    position: relative;
+    top: 20px;
+}
+.secret {
+    margin-top: 400px;
+    margin-bottom: 400px;
 }
